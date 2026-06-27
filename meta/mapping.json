@@ -1,0 +1,175 @@
+{
+  "version": "2.0",
+  "description": "Topic → Asset mapping. 每个 topic 的所有知识资产位置。",
+  "topics": {
+    "predoc_strategy": {
+      "knowledge": ["content/knowledge/predoc_strategy.md"],
+      "frameworks": ["content/frameworks/predoc_strategy.md"],
+      "coaching": [],
+      "decision_rules": ["content/decision_rules/predoc_path_selection.md"],
+      "checklists": ["assets/checklists/predoc_application.md"],
+      "faq": ["assets/FAQ/predoc_application.md"],
+      "sop": []
+    },
+    "research_experience": {
+      "knowledge": ["content/knowledge/research_experience.md"],
+      "frameworks": ["content/frameworks/research_experience.md"],
+      "coaching": [],
+      "decision_rules": [],
+      "checklists": [],
+      "faq": [],
+      "sop": []
+    },
+    "research_interest_narrative": {
+      "knowledge": ["content/knowledge/predoc_interview.md"],
+      "frameworks": [
+        "content/frameworks/research_interest.md",
+        "content/frameworks/research_interest_transition.md"
+      ],
+      "coaching": ["content/coaching/predoc_interview_red_lines.md"],
+      "decision_rules": ["content/decision_rules/research_interest_transition.md"],
+      "golden_sentences": ["assets/golden_sentences/predoc_interview.md", "assets/golden_sentences/academic_career.md"],
+      "checklists": [],
+      "faq": []
+    },
+    "coding_exercise": {
+      "knowledge": [
+        "content/knowledge/predoc_interview.md",
+        "content/knowledge/robustness_tests_technical.md"
+      ],
+      "frameworks": [
+        "content/frameworks/replication_walkthrough.md",
+        "content/frameworks/ai_assisted_coding.md",
+        "content/frameworks/robustness_tests.md",
+        "content/frameworks/visualization_interpretation.md"
+      ],
+      "coaching": ["content/coaching/predoc_interview_red_lines.md"],
+      "decision_rules": ["content/decision_rules/ai_usage.md"],
+      "checklists": [],
+      "faq": []
+    },
+    "recommendation_letter": {
+      "knowledge": ["content/knowledge/recommendation_letter.md"],
+      "frameworks": ["content/frameworks/recommendation_letter.md"],
+      "coaching": [],
+      "decision_rules": ["content/decision_rules/predoc_path_selection.md"],
+      "checklists": ["assets/checklists/recommendation_letter.md"],
+      "faq": ["assets/FAQ/predoc_application.md"]
+    },
+    "cv": {
+      "knowledge": ["content/knowledge/cv.md"],
+      "frameworks": [],
+      "coaching": [],
+      "decision_rules": ["content/decision_rules/predoc_path_selection.md"],
+      "checklists": ["assets/checklists/predoc_application.md"],
+      "faq": []
+    },
+    "cover_letter": {
+      "knowledge": ["content/knowledge/cover_letter.md"],
+      "frameworks": ["content/frameworks/cover_letter.md"],
+      "coaching": [],
+      "decision_rules": ["content/decision_rules/predoc_path_selection.md"],
+      "checklists": ["assets/checklists/predoc_application.md"],
+      "faq": ["assets/FAQ/predoc_application.md"]
+    },
+    "predoc_interview": {
+      "knowledge": [
+        "content/knowledge/predoc_interview.md",
+        "content/knowledge/robustness_tests_technical.md"
+      ],
+      "frameworks": [
+        "content/frameworks/research_interest.md",
+        "content/frameworks/research_interest_transition.md",
+        "content/frameworks/replication_walkthrough.md",
+        "content/frameworks/ai_assisted_coding.md",
+        "content/frameworks/robustness_tests.md",
+        "content/frameworks/visualization_interpretation.md",
+        "content/frameworks/field_experiment_design.md",
+        "content/frameworks/background_fit.md",
+        "content/frameworks/causal_inference.md",
+        "content/frameworks/future_plans.md",
+        "content/frameworks/answer_structure.md"
+      ],
+      "coaching": [
+        "content/coaching/predoc_interview_red_lines.md",
+        "content/coaching/predoc_interview_patterns.md",
+        "content/coaching/predoc_interview_principles.md"
+      ],
+      "decision_rules": [
+        "content/decision_rules/research_interest_transition.md",
+        "content/decision_rules/ai_usage.md",
+        "content/decision_rules/background_fit.md",
+        "content/decision_rules/identification_honesty.md"
+      ],
+      "golden_sentences": ["assets/golden_sentences/predoc_interview.md"],
+      "checklists": ["assets/checklists/predoc_interview_24h.md"],
+      "sop": ["content/SOP/predoc_interview_preparation_sop.md"]
+    },
+    "behavioral_interview": {
+      "knowledge": ["content/knowledge/behavioral_interview.md"],
+      "frameworks": ["content/frameworks/behavioral_interview.md"],
+      "coaching": [],
+      "decision_rules": [],
+      "checklists": ["assets/checklists/mock_interview.md"],
+      "faq": []
+    },
+    "mock_interview": {
+      "knowledge": ["content/knowledge/mock_interview.md"],
+      "frameworks": ["content/frameworks/mock_interview.md"],
+      "coaching": [
+        "content/coaching/predoc_interview_red_lines.md",
+        "content/coaching/predoc_interview_principles.md"
+      ],
+      "decision_rules": [],
+      "checklists": ["assets/checklists/mock_interview.md"],
+      "sop": ["content/SOP/predoc_interview_preparation_sop.md"]
+    },
+    "pi_communication": {
+      "knowledge": ["content/knowledge/pi_communication.md"],
+      "frameworks": [],
+      "coaching": ["content/coaching/mental_models.md"],
+      "decision_rules": ["content/decision_rules/predoc_path_selection.md"],
+      "checklists": [],
+      "faq": ["assets/FAQ/predoc_application.md"]
+    },
+    "path_planning": {
+      "knowledge": ["content/knowledge/path_planning.md"],
+      "frameworks": ["content/frameworks/path_planning.md"],
+      "coaching": [
+        "content/coaching/general_principles.md",
+        "content/coaching/mental_models.md"
+      ],
+      "decision_rules": ["content/decision_rules/predoc_path_selection.md"],
+      "checklists": [],
+      "faq": ["assets/FAQ/predoc_application.md"],
+      "sop": ["content/SOP/academic_career_planning_sop.md"]
+    },
+    "career_planning": {
+      "knowledge": ["content/knowledge/career_planning.md"],
+      "frameworks": ["content/frameworks/career_planning.md"],
+      "coaching": [],
+      "decision_rules": ["content/decision_rules/predoc_path_selection.md"],
+      "checklists": [],
+      "faq": ["assets/FAQ/predoc_application.md"]
+    },
+    "cross_topic": {
+      "coaching": [
+        "content/coaching/general_principles.md",
+        "content/coaching/mental_models.md",
+        "content/coaching/common_mistakes.md"
+      ],
+      "decision_rules": [
+        "content/decision_rules/predoc_path_selection.md",
+        "content/decision_rules/research_interest_transition.md",
+        "content/decision_rules/ai_usage.md",
+        "content/decision_rules/background_fit.md",
+        "content/decision_rules/identification_honesty.md"
+      ],
+      "golden_sentences": [
+        "assets/golden_sentences/predoc_interview.md",
+        "assets/golden_sentences/academic_career.md"
+      ],
+      "sop": ["content/SOP/academic_career_planning_sop.md"]
+    }
+  }
+}

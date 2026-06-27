@@ -1,0 +1,339 @@
+# Academic Content OS — Topic Taxonomy
+# Single source of truth. config/taxonomy.yaml and taxonomy/ YAML files are deprecated.
+# All topic references should point here.
+# File names / IDs use English; body content uses zh-CN.
+
+version: "3.0"
+hub: academic-careers
+last_refactored: "2026-06-27"
+
+topics:
+
+  # ── 路径决策（merged from: career_planning + path_planning）────────────
+  academic_path_decision:
+    title: 学术路径决策（Academic Path Decision）
+    subtopics:
+      - direct_phd
+      - master_phd
+      - master_predoc_phd
+      - opt_constraint
+      - european_predoc
+      - academic_vs_industry
+      - why_phd_framework
+    assets:
+      knowledge:
+        - content/knowledge/academic_path_decision.md
+      frameworks:
+        - content/frameworks/academic_path_decision.md
+      decision_rules:
+        - content/decision_rules/path_selection.md
+
+  # ── 申请准备类 ──────────────────────────────────────────────────────────
+  predoc_strategy:
+    title: Predoc 申请整体策略
+    subtopics:
+      - application_timeline
+      - institution_classification
+      - skill_threshold
+      - cold_email
+    assets:
+      knowledge:
+        - content/knowledge/predoc_strategy.md
+      checklists:
+        - assets/checklists/predoc_application.md
+
+  research_experience:
+    title: 研究经历（Research Experience）
+    subtopics:
+      - ra_vs_independent
+      - replication
+      - signal_strength
+      - narrative_modes
+    assets:
+      knowledge:
+        - content/knowledge/research_experience.md
+      frameworks:
+        - content/frameworks/research_experience.md
+
+  research_interest_narrative:
+    title: 研究兴趣叙事（含 Why This Lab）
+    note: why_this_lab merged into this topic
+    subtopics:
+      - substantive_thread
+      - interest_transition
+      - why_this_lab
+      - literature_positioning
+    assets:
+      frameworks:
+        - content/frameworks/research_interest_narrative.md
+        - content/frameworks/reframe_as_extension.md
+      decision_rules:
+        - content/decision_rules/research_interest_transition.md
+
+  coding_exercise:
+    title: Coding Exercise & Technical Interview
+    subtopics:
+      - data_pipeline
+      - merge_errors
+      - robust_se
+      - visualization
+      - ai_workflow
+    assets:
+      frameworks:
+        - content/frameworks/ai_assisted_coding.md
+        - content/frameworks/replication_walkthrough.md
+        - content/frameworks/robustness_tests.md
+        - content/frameworks/visualization_interpretation.md
+
+  recommendation_letter:
+    title: 推荐信
+    subtopics:
+      - weight_determinants
+      - letter_combination
+      - network_building
+      - domestic_challenge
+    assets:
+      knowledge:
+        - content/knowledge/recommendation_letter.md
+      frameworks:
+        - content/frameworks/recommendation_letter.md
+      checklists:
+        - assets/checklists/recommendation_letter.md
+
+  cv:
+    title: CV（简历）
+    subtopics:
+      - research_experience_share
+      - replication_in_cv
+      - skill_section
+      - length
+    assets:
+      knowledge:
+        - content/knowledge/cv.md
+      decision_rules:
+        - content/decision_rules/materials_structure.md
+
+  cover_letter:
+    title: Cover Letter（求职信）
+    subtopics:
+      - pi_centered_writing
+      - four_paragraph_structure
+      - customization_level
+    assets:
+      knowledge:
+        - content/knowledge/cover_letter.md
+      frameworks:
+        - content/frameworks/cover_letter.md
+      decision_rules:
+        - content/decision_rules/materials_structure.md
+
+  sop:
+    title: SOP / Personal Statement
+    subtopics: []
+    note: content pending
+
+  # ── 面试类 ────────────────────────────────────────────────────────────
+  predoc_interview:
+    title: Predoc 面试（专项）
+    parent: predoc_strategy
+    subtopics:
+      - research_interest_motivation
+      - research_interest_transition
+      - replication_walkthrough
+      - ai_assisted_coding
+      - robustness_tests
+      - visualization_interpretation
+      - field_experiment_design
+      - background_fit
+      - causal_inference
+      - future_plans
+      - answer_structure
+    assets:
+      frameworks:
+        - content/frameworks/research_interest_narrative.md
+        - content/frameworks/replication_walkthrough.md
+        - content/frameworks/ai_assisted_coding.md
+        - content/frameworks/robustness_tests.md
+        - content/frameworks/visualization_interpretation.md
+        - content/frameworks/field_experiment_design.md
+        - content/frameworks/background_fit.md
+        - content/frameworks/causal_inference.md
+        - content/frameworks/future_plans.md
+        - content/frameworks/answer_structure.md
+      knowledge:
+        - content/knowledge/predoc_interview.md
+        - content/knowledge/robustness_tests_technical.md
+      coaching:
+        - content/coaching/predoc_interview_coaching.md
+        - content/coaching/predoc_interview_red_lines.md
+      decision_rules:
+        - content/decision_rules/ai_usage.md
+        - content/decision_rules/background_fit.md
+        - content/decision_rules/identification_honesty.md
+        - content/decision_rules/research_interest_transition.md
+        - content/decision_rules/interview_recovery.md
+        - content/decision_rules/signal_replacement.md
+      golden_sentences:
+        - assets/golden_sentences/predoc_interview.md
+      checklists:
+        - assets/checklists/predoc_interview_24h.md
+      sop:
+        - content/SOP/predoc_interview_preparation_sop.md
+
+  mock_interview:
+    title: Mock Interview（模拟面试，含 Behavioral）
+    note: behavioral_interview merged into this topic
+    subtopics:
+      - question_set_design
+      - follow_up_logic
+      - three_tier_diagnosis
+      - closing_question
+      - post_interview_debrief
+      - behavioral_star_structure
+      - advisor_disagreement
+      - time_management
+    assets:
+      knowledge:
+        - content/knowledge/mock_interview.md
+      frameworks:
+        - content/frameworks/mock_interview.md
+        - content/frameworks/behavioral_interview.md
+      checklists:
+        - assets/checklists/mock_interview.md
+
+  # ── 关系管理类 ────────────────────────────────────────────────────────
+  pi_communication:
+    title: PI 沟通与关系管理
+    subtopics:
+      - cold_email
+      - ambiguous_feedback
+      - direction_change
+      - phd_application_disclosure
+    assets:
+      knowledge:
+        - content/knowledge/pi_communication.md
+      frameworks:
+        - content/frameworks/reframe_as_extension.md
+
+  working_with_pi:
+    title: Working with PI（进组后）
+    subtopics: []
+    note: content pending
+
+  # ── 研究技能类 ────────────────────────────────────────────────────────
+  ai_assisted_research:
+    title: AI Assisted Research（AI 辅助科研）
+    subtopics:
+      - junior_ra_model
+      - prompt_engineering
+      - workflow_narrative
+    assets:
+      frameworks:
+        - content/frameworks/ai_assisted_coding.md
+      decision_rules:
+        - content/decision_rules/ai_usage.md
+
+  replication_literature:
+    title: Replication & Literature Positioning
+    subtopics: []
+    note: content pending
+
+  research_idea_generation:
+    title: Research Idea Generation
+    subtopics:
+      - same_data_different_question
+      - different_data_same_question
+      - literature_positioning
+    note: content pending
+
+  staggered_did:
+    title: Staggered DID & 计量方法
+    subtopics: []
+    note: content pending (Callaway-Sant'Anna, Sun-Abraham)
+
+  # ── 特殊场景类 ────────────────────────────────────────────────────────
+  european_predoc:
+    title: European Predoc
+    subtopics:
+      - phd_studentship_format
+      - search_keywords
+      - application_channels
+    note: content pending（知识散见于 content/knowledge/academic_path_decision.md，待提取为独立文件）
+
+  visa_constraints:
+    title: 签证与身份约束（OPT / Visa）
+    subtopics:
+      - opt_timeline
+      - stem_extension
+      - work_authorization_for_predoc
+    note: content pending（高优先级——被 profile_diagnosis、ACOS、path_selection 多处引用，当前无实体内容文件）
+
+  # ── PhD 申请（待建设）────────────────────────────────────────────────
+  phd_application:
+    title: PhD 申请策略
+    subtopics: []
+    note: content pending
+
+  offer_decision:
+    title: Offer Decision
+    subtopics: []
+    note: content pending
+
+  # ── 跨 Topic 框架与原则 ──────────────────────────────────────────────
+  cross_topic_frameworks:
+    title: 跨 Topic 核心框架
+    note: Apply across all topics, not owned by any single topic.
+    assets:
+      frameworks:
+        - content/frameworks/core_principles.md
+        - content/frameworks/mental_models.md
+        - content/frameworks/reframe_as_extension.md
+        - content/frameworks/evaluator_centric_design.md
+        - content/frameworks/staged_asset_building.md
+      coaching:
+        - content/coaching/common_mistakes.md
+      sop:
+        - content/SOP/academic_career_planning_sop.md
+      golden_sentences:
+        - assets/golden_sentences/academic_career.md
+      faq:
+        - assets/faq/predoc_application.md
+      playbooks:
+        - assets/playbooks/import_knowledge_protocol.md
+
+  # ── 观点/意见类 ──────────────────────────────────────────────────────
+  opinions:
+    title: 观点与意见
+    note: 主观立场文件，与客观知识严格区分。
+    assets:
+      opinions:
+        - content/opinions/predoc.md
+
+  # ── 顾问视角 ─────────────────────────────────────────────────────────
+  consulting_operations:
+    title: 咨询业务运营（顾问视角）
+    subtopics:
+      - profile_diagnosis
+      - asset_building_priority
+    note: 内部 Topic，顾问操作视角，与候选人知识严格区分。
+    assets:
+      frameworks:
+        - content/frameworks/profile_diagnosis.md
+        - content/frameworks/research_asset_building.md
+        - content/frameworks/academic_career_os.md
+      decision_rules:
+        - content/decision_rules/research_asset_priority.md
+
+  # ── 待建资产（优先级排序）────────────────────────────────────────────
+  advisor_signal_decoding:
+    title: Advisor Signal Decoding（导师信号解读）
+    parent: pi_communication
+    subtopics:
+      - positive_signal_types
+      - ambiguous_signal_types
+      - implicit_rejection_signals
+      - offer_stage_signals
+    note: >
+      高优先级待建资产。素材已有（散见于 pi_communication、
+      predoc_interview_coaching、mock_interview），需独立成资产。
+      被 ACOS Stage 2、5、7 引用。

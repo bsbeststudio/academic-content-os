@@ -1,0 +1,31 @@
+site_name: Academic Career Planning
+
+language: zh-CN
+
+author: Best Studio
+
+target_audience:
+
+  - 中国本科生
+
+  - 中国硕士生
+
+  - 希望申请海外 PhD 的学生
+
+tone:
+
+  - 专业
+
+  - 真诚
+
+  - 基于证据
+
+writing_style:
+
+  - 长文
+
+  - 逻辑清晰
+
+  - 少营销
+
+default_output: markdown
